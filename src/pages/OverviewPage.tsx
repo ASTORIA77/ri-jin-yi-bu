@@ -70,17 +70,17 @@ export function OverviewPage() {
             </div>
 
             {/* Bottom-left: Motto text */}
-            <div className="relative flex flex-col items-start justify-center">
-              <p className="font-motto font-bold text-gray-500 text-base text-left mb-12">
+            <div className="relative flex flex-col items-start justify-start pt-4">
+              <p className="font-motto font-bold text-gray-500 text-base text-left">
                 总有一些时间，你不是工位上的标准件
               </p>
-              <p className="font-cursive font-bold text-7xl text-blue-600 ml-12">
+              <p className="font-cursive font-bold text-7xl text-blue-600 ml-12 mt-8">
                 Be Yourself
               </p>
             </div>
 
             {/* Bottom-right: Long-term Projects (Not Urgent, Important) */}
-            <div className="relative flex flex-col justify-center">
+            <div className="relative flex flex-col justify-start pt-4">
               <h3 className="text-base font-mono text-blue-600 tracking-wider text-right">LONG-TERM PROJECTS</h3>
               <p className="font-motto font-bold text-base text-gray-400 mt-1 mb-4 text-right">
                 你不会达到目标的高度，只会跌到系统的水平
